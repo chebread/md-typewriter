@@ -2,8 +2,7 @@ import { marked } from 'marked';
 import './styles/reset.css';
 import './styles/style.css';
 
-const contentMsg =
-	'Quickly write short notes with Markdown that follows the syntax of GitHub. (MIT License &copy; 2022 Cha Haneum)';
+const contentMsg = `Quickly write short notes with Markdown that follows the syntax of GitHub. (MIT License &copy; ${new Date().getFullYear()} Cha Haneum)`;
 
 document.querySelector('#root').innerHTML = `
 	<header class="header">
