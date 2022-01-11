@@ -13,9 +13,7 @@ _Supoorted Markdown syntax will continue to be added._
 - From # to ######
 - \*\*
 - ``
-- <span>```</span>
-  <p>&lt;text&gt;</p>
-  <span>```</span>
+- \`\`\` \`\`\`
 
 ## License
 
