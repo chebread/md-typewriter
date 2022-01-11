@@ -1,11 +1,11 @@
-import { marked } from "marked";
-import "./styles/reset.css";
-import "./styles/style.css";
+import { marked } from 'marked';
+import './styles/reset.css';
+import './styles/style.css';
 
 const contentMsg =
-	"Quickly write short notes with Markdown that follows the syntax of GitHub. (MIT License &copy; 2022 Cha Haneum)";
+	'Quickly write short notes with Markdown that follows the syntax of GitHub. (MIT License &copy; 2022 Cha Haneum)';
 
-document.querySelector("#root").innerHTML = `
+document.querySelector('#root').innerHTML = `
 	<header class="header">
     <img
       class="header-img"
@@ -22,9 +22,9 @@ document.querySelector("#root").innerHTML = `
 `;
 
 const updateValue = e => {
-	document.querySelector("#content-view").innerHTML = marked(e.target.value);
+	document.querySelector('#content-view').innerHTML = marked(e.target.value);
 };
 
 document
-	.querySelector("#content-textarea")
-	.addEventListener("input", updateValue);
+	.querySelector('#content-textarea')
+	.addEventListener('input', updateValue);
