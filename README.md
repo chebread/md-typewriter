@@ -7,11 +7,11 @@ It is an web application to quickly write short notes with Markdown that follows
 ## All support for Markdown grammars
 - Header
 - Bold
-- Inline / Block (``` / Indent the first paragraph) code
+- Inline / Block (3 grave accent text / Indent the first paragraph) code
 - Underline
 - Strikethrough
 - External / Reference / Auto-connection link
-- Line break (2 spaces or more / `<br/>`)
+- Line break (2 spaces or more / 1 grave accent text)
 
 ## Support Web Accessibility
 - When an input box that contained on border is focused, border is displayed in red
