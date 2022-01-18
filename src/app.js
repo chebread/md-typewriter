@@ -1,8 +1,6 @@
 import { marked } from 'marked';
 import './styles/reset.css';
 import './styles/style.css';
-import './styles/light-theme.css';
-import './styles/dark-theme.css';
 
 const contentMsg = `Quickly write short notes with Markdown that follows the syntax of GitHub.`;
 const license = `MIT License &copy; ${new Date().getFullYear()} Cha Haneum`;

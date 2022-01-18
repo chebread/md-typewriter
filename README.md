@@ -23,5 +23,14 @@ It is an web application to quickly write short notes with Markdown that follows
 
 - When typing in the input box, you can type tab by pressing the Tab key
 
+## List of supported browsers
+- Edge
+- Firefox
+- Chrome
+- Safari
+
+## List of unsupported browers
+- IE
+
 ## License
 MIT License &copy; 2022 Cha Haneum
