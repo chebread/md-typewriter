@@ -108,9 +108,13 @@ body {
     font-size: 2.375vh;
 }
 .footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     background-color: white;
     text-align: center;
+    color: gray;
 }
 .footer-right {
     width: 50%;
