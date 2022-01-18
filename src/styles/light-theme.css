@@ -7,9 +7,12 @@
         border-right: 1px solid black;
         border-left: 1px solid black;
     }
-    
+
     #content-textarea {
         border: 1px solid black;
+    }
+    #content-textarea::placeholder {
+        color: gray;
     }
     
     #content-view {
