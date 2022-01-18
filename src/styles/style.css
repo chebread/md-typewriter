@@ -5,8 +5,6 @@ body {
 
 .header {
     box-sizing: border-box;
-    border-top: 1px solid black;
-    border-right: 1px outset black;
     display: flex;
     justify-content: space-between;
     background-color: seagreen;
@@ -15,8 +13,6 @@ body {
 }
 .header-img {
     box-sizing: border-box;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     height: inherit; /*7vh inherit*/
 }
 
@@ -28,10 +24,6 @@ body {
 
 #content-textarea {
     box-sizing: border-box;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
     width: 50%;
     padding: 1.75vh;
     font-size: 2.75vh;
@@ -41,21 +33,16 @@ body {
     color: gray;
 }
 #content-textarea:focus {
-    box-sizing: border-box;
-    border: 1px solid #fa5252;
+    border: 1px solid red;
 }
 #content-view {
     box-sizing: border-box;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     vertical-align: middle;
     overflow: auto;
     padding: 1.75vh;
     width: 50%;
-    background-color: whitesmoke;
     font-size: 2.75vh;
     line-height: 3.4375vh;
 }
@@ -89,10 +76,12 @@ body {
     margin: 0.4175em 0 0.4175em;
 }
 #content-view code {
+    color: black;
     background-color: #e9ecef;
     font-family: 'Source Code Pro', monospace;
 }
 #content-view pre {
+    color: black;
     background-color: #e9ecef;
     margin-top: 3vh;
     margin-bottom: 3vh;
