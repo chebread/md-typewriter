@@ -4,6 +4,7 @@ import './styles/style.css';
 
 const contentMsg = `Quickly write short notes with Markdown that follows the syntax of GitHub.`;
 const license = `MIT License &copy; ${new Date().getFullYear()} Cha Haneum`;
+
 const updateValue = e => {
   document.querySelector('#content-view').innerHTML = marked(e.target.value);
 };
