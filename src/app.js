@@ -3,7 +3,7 @@ import './styles/reset.css';
 import './styles/style.css';
 
 const contentMsg = `Quickly write short notes with Markdown that follows the syntax of GitHub.`;
-
+const license = `MIT License &copy; ${new Date().getFullYear()} Cha Haneum`;
 const updateValue = e => {
   document.querySelector('#content-view').innerHTML = marked(e.target.value);
 };
@@ -20,18 +20,10 @@ document.querySelector('#root').innerHTML = `
     <textarea
       id="content-textarea"
       tabindex="1"
-      placeholder="${contentMsg}"
+      placeholder="${contentMsg}&nbsp;(${license})"
       ></textarea>
     <div id="content-view"></div>
   </div>
-
-  <footer class="footer">
-    <div class="footer-left">
-      MIT License &copy; ${new Date().getFullYear()} Cha Haneum
-    </div>
-    <div class="footer-right">
-    </div>
-  </footer>
 `;
 
 document
