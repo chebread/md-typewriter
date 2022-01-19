@@ -1,8 +1,3 @@
-body {
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
 .header {
     box-sizing: border-box;
     border-top: 1px solid black;
@@ -23,7 +18,7 @@ body {
 .content {
     display: flex;
     flex-direction: row;
-    height: 93.9vh; /**/
+    height: 93.9vh;
 }
 
 #content-textarea {

@@ -23,7 +23,7 @@ document.querySelector('#root').innerHTML = `
       tabindex="1"
       placeholder="${contentMsg}&nbsp;(${license})"
       ></textarea>
-    <div id="content-view"></div>
+    <div id="content-view"><span style="color:gray"></span></div>
   </div>
 `;
 
