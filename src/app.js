@@ -16,7 +16,6 @@ document.querySelector('#root').innerHTML = `
       src="https://upload.wikimedia.org/wikipedia/commons/0/05/Underwoodfive.jpg"
       alt="old typewriter on the table"/>
   </header>
-
   <div class="content">
     <textarea
       id="content-textarea"
