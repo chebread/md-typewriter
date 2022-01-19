@@ -37,9 +37,6 @@ body {
 #content-textarea::placeholder {
     color: gray;
 }
-#content-textarea:focus {
-    border: 1px solid red;
-}
 
 #content-view {
     box-sizing: border-box;

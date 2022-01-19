@@ -14,7 +14,7 @@ It is an web application to quickly write short notes with Markdown that follows
 - Line break (2 spaces or more / 1 grave accent text)
 
 ## Support Web Accessibility
-- When an input box that contained on border is focused, border is displayed in red
+<!-- - When an input box that contained on border is focused, border is displayed in red -->
 - An image displayed as an icon in the header of a web application can be expressed as alternative text
 - All areas of the web application are divided into lines and expressed intuitively
 
