@@ -32,5 +32,10 @@ It is an web application to quickly write short notes with Markdown that follows
 ## List of unsupported browers
 - IE
 
+## Bugs
+- Where bottom border floats on top when multiple windows are closed and only one window is displayed
+
+<!-- ## Bugs fixed -->
+
 ## License
 MIT License &copy; 2022 Cha Haneum
