@@ -1,3 +1,4 @@
+@charset "utf-8";
 html,
 body,
 div,
@@ -75,7 +76,10 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+ul,
+li,
+ol {
   margin: 0;
   padding: 0;
   border: 0;
@@ -118,27 +122,6 @@ table {
 a {
   all: unset;
 }
-input {
-  all: unset;
-}
-textarea {
-  padding: 0;
-  margin: 0;
-  vertical-align: middle;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 100%;
-  overflow: auto;
-  resize: none;
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
 button {
   all: unset;
-  background-color: black;
-  color: white;
-}
-button:active {
-  background-color: blue;
 }

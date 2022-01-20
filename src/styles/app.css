@@ -1,18 +1,21 @@
+@charset "utf-8";
+body {
+    overflow: hidden;
+}
 .header {
-    box-sizing: border-box;
-    border-top: 1px solid black;
-    border-right: 1px outset black;
-    display: flex;
-    justify-content: space-between;
-    background-color: seagreen;
     width: 100%;
     height: 6.1vh; /*header height*/
+    background-color: seagreen;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
 }
 .header-img {
+    height: inherit; /*Image height (inherit)*/
+    width: 8.45vh; /*Image width*/
     box-sizing: border-box;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    height: inherit; /*7vh inherit*/
 }
 
 .content {
@@ -22,31 +25,40 @@
 }
 
 #content-textarea {
-    box-sizing: border-box;
-    border: 1px solid black;
-    width: 50%;
-    padding: 1.75vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     font-size: 2.75vh;
     line-height: 3.4375vh;
+    vertical-align: middle;
+    margin: 0;
+    padding: 1.75vh;
+    width: 50%;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 100%;
 }
 #content-textarea::placeholder {
     color: gray;
 }
 
 #content-view {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2.75vh;
+    line-height: 3.4375vh;
+    padding: 1.75vh;
+    width: 50%;
+    overflow: auto;
+    background-color: whitesmoke;
+    vertical-align: middle;
     box-sizing: border-box;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
-    background-color: whitesmoke;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    vertical-align: middle;
-    overflow: auto;
-    padding: 1.75vh;
-    width: 50%;
-    font-size: 2.75vh;
-    line-height: 3.4375vh;
 }
 
 #content-view strong {
@@ -78,18 +90,16 @@
     margin: 0.4175em 0 0.4175em;
 }
 #content-view code {
+    font-family: 'Source Code Pro', monospace;
     color: black;
     background-color: #e9ecef;
-    font-family: 'Source Code Pro', monospace;
 }
 #content-view pre {
-    color: black;
-    background-color: #e9ecef;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
     font-family: 'Source Code Pro', monospace;
+    color: black;
+    margin: 3vh 0 3vh 0;
+    padding: 0 1vh 0 1vh;
+    background-color: #e9ecef;
 }
 #content-view em {
     font-style: italic;
@@ -105,4 +115,22 @@
 }
 #content-view img {
     width: 100%;
+}
+#content-view ul {
+    list-style: disc;
+    line-height: 4.296875vh;
+    padding-left: 5.5vh;
+    padding-right: 5.5vh;
+}
+#content-view ul ul {
+    list-style: circle;
+}
+#content-view ul ul ul {
+    list-style: square;
+}
+#content-view ol {
+    list-style: decimal;
+    line-height: 4.296875vh;
+    padding-left: 5.5vh;
+    padding-right: 5.5vh;
 }
